@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trainline.ExchangeRate.Api.Models\Trainline.ExchangeRate.Api.Models.csproj" />
+    <ProjectReference Include="..\Trainline.ExchangeRate.Business.Managers\Trainline.ExchangeRate.Business.Managers.csproj" />
+  </ItemGroup>
+
+</Project>

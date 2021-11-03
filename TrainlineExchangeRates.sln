@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExchangeRate", "ExchangeRate", "{9B826976-6650-4675-8D25-2E4E2F868CF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainlineExchangeRates.Api", "TrainlineExchangeRates.Api\TrainlineExchangeRates.Api.csproj", "{BC10DC99-DE79-4F5B-9559-EADE2B88D569}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainline.ExchangeRate.Api.Models", "Trainline.ExchangeRate.Api.Models\Trainline.ExchangeRate.Api.Models.csproj", "{03E61917-25E4-4505-84C3-3F9AF228379A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainline.ExchangeRate.Business.Managers", "Trainline.ExchangeRate.Business.Managers\Trainline.ExchangeRate.Business.Managers.csproj", "{2F09A9E4-0E17-401C-A2D6-F22A482DA338}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainline.ExchangeRate.Business.Tests", "Trainline.ExchangeRate.Business.Tests\Trainline.ExchangeRate.Business.Tests.csproj", "{B2919597-DFB9-43F9-AD9F-B1FAE09926EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrainlineExchangeRates.Api.Tests", "TrainlineExchangeRates.Api.Tests\TrainlineExchangeRates.Api.Tests.csproj", "{E897D7F7-48CC-4263-BBF4-AB5FC3E3AA71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC10DC99-DE79-4F5B-9559-EADE2B88D569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC10DC99-DE79-4F5B-9559-EADE2B88D569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC10DC99-DE79-4F5B-9559-EADE2B88D569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC10DC99-DE79-4F5B-9559-EADE2B88D569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E61917-25E4-4505-84C3-3F9AF228379A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E61917-25E4-4505-84C3-3F9AF228379A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E61917-25E4-4505-84C3-3F9AF228379A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E61917-25E4-4505-84C3-3F9AF228379A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F09A9E4-0E17-401C-A2D6-F22A482DA338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F09A9E4-0E17-401C-A2D6-F22A482DA338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F09A9E4-0E17-401C-A2D6-F22A482DA338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F09A9E4-0E17-401C-A2D6-F22A482DA338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2919597-DFB9-43F9-AD9F-B1FAE09926EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2919597-DFB9-43F9-AD9F-B1FAE09926EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2919597-DFB9-43F9-AD9F-B1FAE09926EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2919597-DFB9-43F9-AD9F-B1FAE09926EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E897D7F7-48CC-4263-BBF4-AB5FC3E3AA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E897D7F7-48CC-4263-BBF4-AB5FC3E3AA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E897D7F7-48CC-4263-BBF4-AB5FC3E3AA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E897D7F7-48CC-4263-BBF4-AB5FC3E3AA71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03E61917-25E4-4505-84C3-3F9AF228379A} = {9B826976-6650-4675-8D25-2E4E2F868CF7}
+		{2F09A9E4-0E17-401C-A2D6-F22A482DA338} = {9B826976-6650-4675-8D25-2E4E2F868CF7}
+		{B2919597-DFB9-43F9-AD9F-B1FAE09926EC} = {9B826976-6650-4675-8D25-2E4E2F868CF7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAC4D6E3-1777-4DAE-AA21-948F1A871634}
+	EndGlobalSection
+EndGlobal

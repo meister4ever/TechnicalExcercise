@@ -1,0 +1,12 @@
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\bin\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.deps.json
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\bin\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.dll
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\bin\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.pdb
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\bin\Debug\netcoreapp3.1\Trainline.ExchangeRate.Api.Models.dll
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\bin\Debug\netcoreapp3.1\Trainline.ExchangeRate.Api.Models.pdb
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\obj\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.csprojAssemblyReference.cache
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\obj\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.AssemblyInfoInputs.cache
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\obj\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.AssemblyInfo.cs
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\obj\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\obj\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.csproj.CopyComplete
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\obj\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.dll
+C:\Users\Sebastian\source\repos\TrainlineExchangeRates\Trainline.ExchangeRate.Business.Managers\obj\Debug\netcoreapp3.1\Trainline.ExchangeRate.Business.Managers.pdb
