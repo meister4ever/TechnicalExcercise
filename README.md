@@ -33,6 +33,6 @@ To test the Technical Excercise, run the tests on Trainline.ExchangeRate.Busines
 - Validate on the Manager the parameters also (although that was tested on the Controller), and add tests for that to the manager.
 - Assess the precision on the transformed amount and make it configurable as needed.
 - Assess the provider to see if it can provide a service of supported currencies, and eventually make a service to mantain that information if needed.
-- Add HttpClinetFactory in order to avoid hard-coding recurrent uris (and validate with the business it that could be a future scenario).
+- Add HttpClientFactory in order to avoid hard-coding recurrent uris (and validate with the business it that could be a future scenario).
 
 
