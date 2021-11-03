@@ -1,4 +1,4 @@
-# TechnicalExcercise
+# Trainline Technical Excercise
 
 This repository is home to Trainline API and associated projects.
 
