@@ -19,7 +19,7 @@ namespace TrainlineExchangeRates.Api.Tests.TrainlineExchangeRatesControllerTests
             // Arrange
             var mockExchangeRatesManager = new Mock<IExchangeRatesManager>();
 
-            // S.U.T. (Subject under test)
+            // S.U.T. (System under test)
             var sut = new TrainlineExchangeRatesController(mockExchangeRatesManager.Object);
 
             // For 100 GBP, to USD,Given the exchange rate it should return 138.4935 ( 100 * 1.384935 )
@@ -46,7 +46,7 @@ namespace TrainlineExchangeRates.Api.Tests.TrainlineExchangeRatesControllerTests
             // Arrange
             var mockExchangeRatesManager = new Mock<IExchangeRatesManager>();
 
-            // S.U.T. (Subject under test)
+            // S.U.T. (System under test)
             var sut = new TrainlineExchangeRatesController(mockExchangeRatesManager.Object);
 
             var requestPrice = -2;
@@ -68,7 +68,7 @@ namespace TrainlineExchangeRates.Api.Tests.TrainlineExchangeRatesControllerTests
             // Arrange
             var mockExchangeRatesManager = new Mock<IExchangeRatesManager>();
 
-            // S.U.T. (Subject under test)
+            // S.U.T. (System under test)
             var sut = new TrainlineExchangeRatesController(mockExchangeRatesManager.Object);
 
             var requestPrice = 100.0;
@@ -90,7 +90,7 @@ namespace TrainlineExchangeRates.Api.Tests.TrainlineExchangeRatesControllerTests
             // Arrange
             var mockExchangeRatesManager = new Mock<IExchangeRatesManager>();
 
-            // S.U.T. (Subject under test)
+            // S.U.T. (System under test)
             var sut = new TrainlineExchangeRatesController(mockExchangeRatesManager.Object);
 
             var requestPrice = 100.0;

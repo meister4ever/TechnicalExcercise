@@ -38,15 +38,16 @@ namespace Trainline.ExchangeRate.Business.Tests.TrainlineManagerTests
                     Content = new StringContent(JsonConvert.SerializeObject(testContent))
                 });
 
-            var underTest = new ExchangeRatesManager(new HttpClient(mockMessageHandler.Object));
+            // S.U.T. (System under test)
+            var sut = new ExchangeRatesManager(new HttpClient(mockMessageHandler.Object));
 
             var fromPriceAmount = 100.0;
 
             // Act
             // Price from GBP to USD
-            var gbpToUsdResult = await underTest.ConvertFromToCurrencyAsync(fromPriceAmount, "GBP", "USD");
+            var gbpToUsdResult = await sut.ConvertFromToCurrencyAsync(fromPriceAmount, "GBP", "USD");
             // Price from GBP to EUR
-            var eurResult = await underTest.ConvertFromToCurrencyAsync(fromPriceAmount, "GBP", "EUR");
+            var eurResult = await sut.ConvertFromToCurrencyAsync(fromPriceAmount, "GBP", "EUR");
 
             // Assert
             // We should obtain fromPriceAmount * testContent.Rates.USD  
